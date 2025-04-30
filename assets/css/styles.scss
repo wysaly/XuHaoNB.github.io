@@ -1,0 +1,130 @@
+---
+---
+
+/* 基本重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 全局样式 */
+  body {
+    padding-top: 200px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f8ff;  /* 天蓝色背景 */
+    color: #333;  /* 深灰色字体 */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 导航栏 */
+  nav {
+    height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #2c8ccc;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* 导航栏链接的 hover 效果 */
+  nav a:hover {
+    background-color: #00cc25;
+    color: white;
+  }
+  
+
+  nav a.current {
+    color: #005f99;
+    background-color: #e0e0e0;
+    font-weight: bold;
+  }
+  
+
+  
+  /* 标题 */
+  h1, h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* 段落 */
+  p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* 按钮样式 */
+  button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007acc;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005f99;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* 底部样式 */
+  footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #007acc;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  .content {
+    margin-top: 50px;
+    padding: 2rem;
+  }
+  
