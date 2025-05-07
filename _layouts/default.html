@@ -3,13 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     {% feed_meta %}
     {% seo %}
+  
+    <!-- MathJax for LaTeX support -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+  
     {% if jekyll.environment == "production" %}
-  <script src="my-analytics-script.js"></script>
+      <script src="my-analytics-script.js"></script>
     {% endif %}
   </head>
+  
   <body>
     {% include navigation.html %}
   
