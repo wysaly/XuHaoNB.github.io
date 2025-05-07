@@ -27,7 +27,7 @@ $$
 
 为了纪念这个时刻，他拍了一张照片：
 
-![小帅在笑](assets/images/laohaozismile.jpg)
+<img src="assets/images/laohaozismile.jpg" alt="我的照片" style="max-width: 400px; border-radius: 10px;">
 
 
 ## 数学插曲
