@@ -23,13 +23,6 @@ $$
 
 但小帅不明白。他以为这是电动车续航的秘密。
 
-## 小帅的第一张照片
-
-为了纪念这个时刻，他拍了一张照片：
-
-<img src="assets/images/laohaozismile.jpg" alt="我的照片" style="max-width: 400px; border-radius: 10px;">
-
-
 ## 数学插曲
 
 他开始尝试用数学预测明天的天气，写下了一个很“专业”的公式：
