@@ -2,7 +2,7 @@
 layout: post
 title: "小帅的奇妙冒险"
 date: 2025-05-07
-author: jc
+author: JC
 ---
 
 这是我的第一篇博客，不知道写什么，就先写个轻松点的故事吧。
